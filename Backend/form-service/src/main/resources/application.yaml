@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: form-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/formdb?retryWrites=true&loadBalanced=false&connectTimeoutMS=10000
+
+server:
+  port: 6969
